@@ -93,10 +93,10 @@ var myArrayCopy = myArray.slice();
 //DON'T TOUCH THE CODE BELOW
 var myNumbers = [333, 1, 4, 5, 511, 34, 88, 77, 222];
 //DON'T TOUCH THE CODE ABOVE
-function evensOnly(arr){
-  return arr.filter(number => number % 2 === 0)
+function evensOnly(){
+  return myNumbers.filter(number => number % 2 === 0)
 };  
-evensOnly(myNumbers)
+
 
 
 
